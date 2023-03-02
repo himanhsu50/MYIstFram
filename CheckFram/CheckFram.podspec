@@ -10,7 +10,7 @@ Pod::Spec.new do |spec|
   }
   spec.homepage     = 'https://github.com/himanhsu50/MYIstFram'
   spec.source       = { 
-    :git => 'https://github.com/himanhsu50/MYIstFram', 
+    :git => 'https://github.com/himanhsu50/MYIstFram.git', 
     :branch => 'master',
     :tag => "#{spec.version}"
   }
@@ -19,3 +19,4 @@ Pod::Spec.new do |spec|
   spec.swift_versions = '4.0'
   spec.ios.deployment_target = '16.0'
 end
+

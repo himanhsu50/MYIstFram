@@ -6,7 +6,7 @@
 //
 
 import UIKit
-
+import CheckFram
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
