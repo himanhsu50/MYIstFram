@@ -1,0 +1,16 @@
+PODS:
+  - CheckFram (0.1.0)
+
+DEPENDENCIES:
+  - CheckFram (from `/Users/orange/Desktop/MyIstFram/CheckFram`)
+
+EXTERNAL SOURCES:
+  CheckFram:
+    :path: "/Users/orange/Desktop/MyIstFram/CheckFram"
+
+SPEC CHECKSUMS:
+  CheckFram: 1d99e36cf330be644265c9702b330faf0bd1532d
+
+PODFILE CHECKSUM: 1811e79e1e404cb2d60ffaff5b2b157f784b70ec
+
+COCOAPODS: 1.11.3

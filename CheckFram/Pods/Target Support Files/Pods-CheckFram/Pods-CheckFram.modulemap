@@ -1,0 +1,6 @@
+framework module Pods_CheckFram {
+  umbrella header "Pods-CheckFram-umbrella.h"
+
+  export *
+  module * { export * }
+}

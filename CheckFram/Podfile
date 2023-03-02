@@ -1,0 +1,22 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'CheckFram' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+    
+  # Pods for CheckFram
+
+  target 'CheckFramTests' do
+    # Pods for testing
+  end
+    pod 'CheckFram', :path => '/Users/orange/Desktop/MyIstFram/CheckFram'
+end
+
+target 'MyFramExam' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for MyFramExam
+
+end

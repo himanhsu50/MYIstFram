@@ -1,0 +1,24 @@
+{
+  "name": "CheckFram",
+  "version": "0.1.0",
+  "authors": {
+    "Himanshu": "agarwal.himanshu@orangemantra.com"
+  },
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "homepage": "https://github.com/himanhsu50/MYIstFram",
+  "source": {
+    "git": "https://github.com/himanhsu50/MYIstFram",
+    "branch": "master",
+    "tag": "0.1.0"
+  },
+  "summary": "Custom view for example on Medium.com",
+  "source_files": "CheckFram.swift",
+  "swift_versions": "4.0",
+  "platforms": {
+    "ios": "16.0"
+  },
+  "swift_version": "4.0"
+}
