@@ -7,7 +7,7 @@
 
 import Foundation
 
-public class CheckFram {
+public class CheckFramClass {
     let hello = "Hello"
 
     public init() {}

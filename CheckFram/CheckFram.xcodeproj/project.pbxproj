@@ -12,7 +12,7 @@
 		C2C5187E29B0D1E800E35214 /* CheckFram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2C5187329B0D1E800E35214 /* CheckFram.framework */; };
 		C2C5188329B0D1E800E35214 /* CheckFramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C5188229B0D1E800E35214 /* CheckFramTests.swift */; };
 		C2C5188429B0D1E800E35214 /* CheckFram.h in Headers */ = {isa = PBXBuildFile; fileRef = C2C5187629B0D1E800E35214 /* CheckFram.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C2C5188E29B0D2BD00E35214 /* CheckFram.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C5188D29B0D2BD00E35214 /* CheckFram.swift */; };
+		C2C5188E29B0D2BD00E35214 /* CheckFramClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C5188D29B0D2BD00E35214 /* CheckFramClass.swift */; };
 		C2C5189629B0D75E00E35214 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C5189529B0D75E00E35214 /* AppDelegate.swift */; };
 		C2C5189829B0D75E00E35214 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C5189729B0D75E00E35214 /* SceneDelegate.swift */; };
 		C2C5189A29B0D75E00E35214 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C5189929B0D75E00E35214 /* ViewController.swift */; };
@@ -48,7 +48,7 @@
 		C2C5187729B0D1E800E35214 /* CheckFram.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = CheckFram.docc; sourceTree = "<group>"; };
 		C2C5187D29B0D1E800E35214 /* CheckFramTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CheckFramTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2C5188229B0D1E800E35214 /* CheckFramTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckFramTests.swift; sourceTree = "<group>"; };
-		C2C5188D29B0D2BD00E35214 /* CheckFram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckFram.swift; sourceTree = "<group>"; };
+		C2C5188D29B0D2BD00E35214 /* CheckFramClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckFramClass.swift; sourceTree = "<group>"; };
 		C2C5189329B0D75E00E35214 /* MyFramExam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFramExam.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2C5189529B0D75E00E35214 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C2C5189729B0D75E00E35214 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -98,7 +98,6 @@
 				27216D0319E2E91D725734F0 /* Pods-MyFramExam.debug.xcconfig */,
 				934D9358326F2D2CA717FBE6 /* Pods-MyFramExam.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -128,7 +127,7 @@
 			isa = PBXGroup;
 			children = (
 				C2C5187629B0D1E800E35214 /* CheckFram.h */,
-				C2C5188D29B0D2BD00E35214 /* CheckFram.swift */,
+				C2C5188D29B0D2BD00E35214 /* CheckFramClass.swift */,
 				C2C5187729B0D1E800E35214 /* CheckFram.docc */,
 			);
 			path = CheckFram;
@@ -378,7 +377,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2C5188E29B0D2BD00E35214 /* CheckFram.swift in Sources */,
+				C2C5188E29B0D2BD00E35214 /* CheckFramClass.swift in Sources */,
 				C2C5187829B0D1E800E35214 /* CheckFram.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -11,7 +11,7 @@ import XCTest
 final class CheckFramTests: XCTestCase {
 
     func testCheckFram() {
-            let hw = CheckFram()
+            let hw = CheckFramClass()
 
             // test public method
             XCTAssertEqual(hw.hello(to: "World"), "Hello World")
